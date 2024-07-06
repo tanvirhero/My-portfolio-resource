@@ -1,0 +1,142 @@
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+ .secondary-bg { 
+    background-color: #FFF8F3;
+ }
+.text-primary {
+    color: #FD6E0A;
+}
+
+/* dark2 */
+.dark-2 {
+    color: #474747;
+
+}
+
+.dark-3, .item-title {
+    color: #757575;
+}
+
+.section-tittle {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-subtittle {
+    font-size: 18px;
+    color: #757575;
+}
+.btn-primary {
+    font-size: 20px;
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+
+}
+
+/* header */
+
+.header {
+    background-image: url(../images/developer.png) ,url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0PX 200PX;
+}
+
+.nav-tittle {
+    font-family: 800px;
+    font-size: 45px;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* banner-styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+.banner-greedings {
+    font-size: 45px;
+    font-weight: 600px;
+}
+
+.banner-tittle{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-discreption{
+    font-size: 18px;
+    
+}
+
+.banner-profile-pic {
+    width: 580px;
+    
+}
+
+/* main-style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* .about-styles */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.about-items {
+display: flex;
+justify-content: space-around;
+}
+
+.item-description {
+    font-weight: bold;
+    font-size: 15px;
+}
